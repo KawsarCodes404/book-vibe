@@ -18,7 +18,7 @@ const WishListButton = ({book} : {book:IBook}) => {
             className="btn border-0 bg-emerald-600 px-6 text-white shadow-md hover:bg-emerald-700"
             onClick={() => handleAddWishList()}
         >
-            Read
+            Add to Wish List
         </button>
     );
 };
